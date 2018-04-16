@@ -7,7 +7,7 @@
 	<meta name="author" content="Aki Okada">
 	<title>All about Japanese whisky</title>
 	<link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
 </head>
 <body>
 	<header>
@@ -25,7 +25,7 @@
 
     <section id="topImage">
       <div class="container">
-        <div class="title">All about Japanese whisky</div>
+      <span class="type title"></span>
       </div>
     </section>
     <br>    
@@ -37,17 +37,11 @@
           
         </div>
         <br>
-        <div class="gallery">
-          <div class="g-box">
-            <img src="img/nikka_2.jpg"/>
-          </div>
-          <div class="g-box">
-            <img src="img/nikka_1.jpg"/>
-          </div>
-          <div class="g-box">
-            <img src="img/miyagikyo_2.jpg"/>
-          </div>
-        </div>
+        <ul class="backcover">
+          <li style="background-image: url('img/nikka_2.jpg')"></li>
+          <li style="background-image: url('img/nikka_1.jpg')"></li>
+          <li style="background-image: url('img/miyagikyo_2.jpg')"></li>
+        </ul>
       </div>
     </section>
   
@@ -62,14 +56,12 @@
     </section>
     <section id="brands">
       <div class="container">
-        <h1>Japanese whisky maker</h1>
-    <!--     <div class="box"> -->
+        <h1>Japanese whisky brands</h1>
           <div class="box">
           <h3>Yamazaki</h3>
           <img id="pic" src="img/yamazaki.jpg"/>
           <br>
           <p>A fresh and fruity whisky from Yamazaki, full of red fruit and a touch of sherry cask. It's also got some mizunara (Japanese oak) matured whisky in the mix, which comes through as a complex spicy and almost incense-like note. A well put together and deep dram.</p>
-     <!--    </div> -->
         
         </div>
 
@@ -114,6 +106,10 @@
     <footer>
       <p>All about Japanese whisky, Copyright &copy; 2018</p>
     </footer>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="./js/typed.min.js" type="text/javascript"></script>
+<script src="./js/script.js" type="text/javascript" ></script>
 
 </body>
 </html>
